@@ -10,7 +10,6 @@ tmp/**/*
 
 tmp/*
 
-Gemfile.lock
 
 doc/api
 
