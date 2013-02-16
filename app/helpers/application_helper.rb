@@ -1,11 +1,14 @@
 module ApplicationHelper
   #helperis title
-  def title
+ def title
   base_title = "Ruby on rails bandomoji programa"
-  if @title.nil?
+   if @title.nil?
     base_title
-  else
+   else
     "#{base_title} | #{@title}"
-  end
-  end
+   end
+ end
+    def logo
+      image_tag("logo.png", :alt => "Bandomoji progr", :class => "round")
+    end
 end
